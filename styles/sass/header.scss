@@ -1,0 +1,29 @@
+.nav-bar {
+    font-family: $reg-font;
+    text-transform: uppercase;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    margin: 10px 20px 20px 0px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: $darker-grey;
+}
+
+.nav-bar li:first-child a {
+    color: $deep-orange;
+}
+
+.hero-image {
+    background-image: url(../assets/header-burger.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
