@@ -260,6 +260,17 @@ html {
   overflow: hidden;
 }
 
+.wrapper {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .nav-bar {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -281,7 +292,7 @@ html {
 
 .nav-bar a {
   text-decoration: none;
-  color: #1F2022;
+  color: rgba(31, 32, 34, 0.1411764706);
 }
 
 .nav-bar li:first-child a {
@@ -291,5 +302,87 @@ html {
 .hero-image {
   background-image: url(../assets/header-burger.png);
   height: 100vh;
+  max-width: 1280px;
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header-contain {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 60%;
+}
+
+.hero-image h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #E75605;
+  line-height: 120px;
+  font-size: 7.32rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 span {
+  display: block;
+}
+
+.social-media li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.main-content-1,
+.main-content-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wording h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #E75605;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+}
+
+.main-wording {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-container {
+  width: 1280px;
+}
+
+.main-content-2 .main-wording {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.desserts-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(31, 32, 34, 0.1411764706);
+}
+
+.second-image-container img {
+  width: 315px;
+  height: 315px;
 }

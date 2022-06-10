@@ -1,0 +1,13 @@
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image-container {
+  width: 1280px;
+  height: 100%;
+}

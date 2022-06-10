@@ -25,5 +25,43 @@
 .hero-image {
     background-image: url(../assets/header-burger.png);
     height: 100vh;
+    max-width: 1280px;
     background-repeat: no-repeat;
+    background-size: contain;
+
+
+    // display: flex;
+    // justify-content: flex-end;
+    // align-items: center;
+}
+
+.header-contain {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60%;
+
+}
+
+.hero-image h1 {
+    font-family: $reg-font;
+    font-weight: 400;
+    color: $deep-orange;
+    line-height: 120px;
+    font-size: 7.32rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 span {
+    display: block;
+}
+
+.social-media li {
+    list-style-type: none;
+    padding-bottom: 10px;
 }

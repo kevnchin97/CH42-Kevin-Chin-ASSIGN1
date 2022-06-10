@@ -1,0 +1,38 @@
+.main-content-1,
+.main-content-2 {
+    display: flex;
+}
+
+.main-wording h2 {
+    font-family: $reg-font;
+    color: $deep-orange;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+}
+
+.main-wording {
+    display: flex;
+    align-items: center;
+
+}
+
+.image-container {
+    width: 1280px;
+}
+
+.main-content-2 .main-wording {
+    order: 1;
+}
+
+.desserts-panel {
+
+    display: flex;
+    background-color: $darker-grey;
+}
+
+.second-image-container img {
+    width: 315px;
+    height: 315px;
+}
+
+// 263.2
