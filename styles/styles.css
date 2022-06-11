@@ -266,14 +266,43 @@ html {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #E75605;
+  line-height: 120px;
+  font-size: 9.15rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #E75605;
+  text-transform: uppercase;
+  font-size: 2.625rem;
+}
+
+p {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 125%;
+}
+
 img {
-  height: 100%;
+  display: block;
   width: 100%;
 }
 
 .nav-bar {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 29px;
 }
 
 .nav-bar ul {
@@ -292,7 +321,7 @@ img {
 
 .nav-bar a {
   text-decoration: none;
-  color: rgba(31, 32, 34, 0.1411764706);
+  color: black;
 }
 
 .nav-bar li:first-child a {
@@ -300,9 +329,8 @@ img {
 }
 
 .hero-image {
-  background-image: url(../assets/header-burger.png);
+  background: url(../assets/header-burger.png);
   height: 100vh;
-  max-width: 1280px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -319,18 +347,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  left: 60%;
-}
-
-.hero-image h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: #E75605;
-  line-height: 120px;
-  font-size: 7.32rem;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+  left: 50%;
 }
 
 h1 span {
@@ -342,47 +359,132 @@ h1 span {
   padding-bottom: 10px;
 }
 
-.main-content-1,
-.main-content-2 {
+.main-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.main-wording h2 {
-  font-family: "Montserrat", sans-serif;
-  color: #E75605;
-  text-transform: uppercase;
-  font-size: 2.1rem;
 }
 
 .main-wording {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  padding: 0 100px;
 }
 
 .image-container {
-  width: 1280px;
+  width: 50%;
 }
 
-.main-content-2 .main-wording {
+.flip .main-wording {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+}
+
+.second-panel {
+  background-color: rgba(31, 32, 34, 0.0745098039);
 }
 
 .desserts-panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgba(31, 32, 34, 0.1411764706);
 }
 
-.second-image-container img {
-  width: 315px;
-  height: 315px;
+.dessert-wording {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80%;
+}
+
+.dessert-wording h2 {
+  margin: 0;
+}
+
+.wrap-image-container {
+  margin: 100px 50px;
+}
+
+.food-bar {
+  background-color: #E75605;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food-bar i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.food-bar i:before {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.food-gallery {
+  background-color: #ffffff;
+}
+
+.food-gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc 33.3333333333vw;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.food-gallery h2 {
+  text-align: center;
+  padding: 70px 0px;
+  margin: 0;
+}
+
+.food-gallery li {
+  list-style-type: none;
 }

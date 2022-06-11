@@ -1,8 +1,12 @@
 $deep-orange: #E75605;
-$darker-grey: #1f202224;
+$darker-grey: #1f202213;
 $white: #FFFFFF;
-$reg-font: 'Montserrat', sans-serif;
+$header-font: 'Montserrat', sans-serif;
+$p-font: 'Catamaran', sans-serif;
+
 
 @import 'setup';
 @import 'header';
-@import 'main'
+@import 'main';
+@import 'main2';
+@import 'footer';
