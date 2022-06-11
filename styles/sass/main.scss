@@ -8,7 +8,7 @@
     align-items: flex-start;
     justify-content: center;
     width: 50%;
-    padding: 0 100px;
+    padding: 0 140px;
 }
 
 .image-container {
@@ -40,5 +40,7 @@
 }
 
 .wrap-image-container {
-    margin: 100px 50px;
+    margin: 100px 0;
+    margin-right: 50px;
+    //     margin: 100px 50px 0px 100px;
 }

@@ -290,3 +290,14 @@ img {
     display: block;
     width: 100%;
 }
+
+button {
+    font-family: $header-font;
+    font-weight: 700;
+    font-size: 125%;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid $deep-orange;
+    background-color: #ffffff;
+}

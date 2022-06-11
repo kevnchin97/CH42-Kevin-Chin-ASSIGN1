@@ -297,6 +297,17 @@ img {
   width: 100%;
 }
 
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 125%;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #E75605;
+  background-color: #ffffff;
+}
+
 .nav-bar {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -312,6 +323,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0px;
 }
 
 .nav-bar li {
@@ -380,7 +392,7 @@ h1 span {
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  padding: 0 100px;
+  padding: 0 140px;
 }
 
 .image-container {
@@ -425,7 +437,8 @@ h1 span {
 }
 
 .wrap-image-container {
-  margin: 100px 50px;
+  margin: 100px 0;
+  margin-right: 50px;
 }
 
 .food-bar {
@@ -462,10 +475,6 @@ h1 span {
   margin-bottom: 20px;
 }
 
-.food-gallery {
-  background-color: #ffffff;
-}
-
 .food-gallery ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,4 +496,57 @@ h1 span {
 
 .food-gallery li {
   list-style-type: none;
+}
+
+.food-gallery li:nth-child(2) {
+  margin: 0 20px;
+}
+
+footer {
+  background-color: rgba(31, 32, 34, 0.0745098039);
+}
+
+footer .nav-bar {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.end-note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.updates form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.updates input {
+  height: 50px;
+  width: 300px;
+  border: none;
+}
+
+form button {
+  display: inline-block;
+}
+
+.contact-info h2,
+.contact-info P,
+.updates h2,
+.updates p {
+  margin: 0;
+}
+
+.copyright {
+  margin: 0;
+  text-align: center;
+  background-color: #1f2022;
+  color: rgba(255, 255, 255, 0.2039215686);
 }

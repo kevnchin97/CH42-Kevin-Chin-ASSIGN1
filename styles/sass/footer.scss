@@ -1,0 +1,46 @@
+footer {
+    background-color: $darker-grey;
+}
+
+footer .nav-bar {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.end-note {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.updates form {
+    display: flex;
+
+
+}
+
+.updates input {
+    height: 50px;
+    width: 300px;
+    border: none;
+
+}
+
+form button {
+    display: inline-block;
+}
+
+.contact-info h2,
+.contact-info P,
+.updates h2,
+.updates p {
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    background-color: #1f2022;
+    color: #ffffff34;
+}
