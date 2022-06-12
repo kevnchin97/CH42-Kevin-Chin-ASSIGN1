@@ -27,7 +27,7 @@
   }
 
   .main-wording {
-    display: block;
+    display: inline-block;
     text-align: center;
     width: 100%;
     padding: 100px 0px;
@@ -55,5 +55,52 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
+
+  .dessert-wording {
+    display: inline-block;
+    text-align: flex-start;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .dessert-wording h2 {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .dessert-wording button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.wrap-image-container {
+  width: 100%;
+}
+
+.food-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+}
+
+.food-bar i {
+  margin: 30px;
+}
+
+.food-gallery li:nth-child(3) {
+  display: none;
+}
+
+.food-gallery ul {
+  width: 100%;
+  padding-bottom: 50px;
 }
