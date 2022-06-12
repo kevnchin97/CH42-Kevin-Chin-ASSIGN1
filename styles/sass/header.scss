@@ -6,6 +6,10 @@
     line-height: 29px;
 }
 
+.nav-bar .menu {
+    display: none;
+}
+
 .nav-bar ul {
     display: flex;
     justify-content: center;
@@ -43,10 +47,11 @@
 
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    position: absolute;
-    left: 50%;
+    margin-right: 100px;
+    // position: absolute;
+    // left: 50%;
 
 }
 
@@ -57,5 +62,11 @@ h1 span {
 
 .social-media li {
     list-style-type: none;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    color: $deep-orange;
+    padding: 0;
+    margin: 0 40px;
 }
