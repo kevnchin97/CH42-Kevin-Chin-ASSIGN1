@@ -89,3 +89,25 @@
     width: 100%;
     padding-bottom: 50px;
 }
+
+footer .nav-bar ul {
+    display: flex;
+}
+
+.end-note {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.updates form {
+    flex-direction: column;
+}
+
+.contact-info p:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+.updates input {
+    width: 100%;
+}

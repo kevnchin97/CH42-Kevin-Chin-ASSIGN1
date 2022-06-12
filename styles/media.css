@@ -104,3 +104,35 @@
   width: 100%;
   padding-bottom: 50px;
 }
+
+footer .nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.end-note {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.updates form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-info p:nth-child(4) {
+  margin-bottom: 50px;
+}
+
+.updates input {
+  width: 100%;
+}
