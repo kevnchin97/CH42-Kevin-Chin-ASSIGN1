@@ -574,6 +574,24 @@ form button {
     margin-right: 20px;
   }
 
+  .header-contain {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-right: -150px;
+  }
+
+  .hero-image {
+    background-position: left bottom;
+  }
+
   .social-media li {
     display: none;
   }
@@ -638,63 +656,64 @@ form button {
     display: block;
     margin: 0 auto;
   }
-}
-.wrap-image-container {
-  width: 100%;
-}
 
-.food-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 600px;
-}
+  .wrap-image-container {
+    width: 100%;
+  }
 
-.food-bar i {
-  margin: 30px;
-}
+  .food-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 600px;
+  }
 
-.food-gallery li:nth-child(3) {
-  display: none;
-}
+  .food-bar i {
+    margin: 30px;
+  }
 
-.food-gallery ul {
-  width: 100%;
-  padding-bottom: 50px;
-}
+  .food-gallery li:nth-child(3) {
+    display: none;
+  }
 
-footer .nav-bar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  .food-gallery ul {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-.end-note {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
+  footer .nav-bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 
-.updates form {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
+  .end-note {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 
-.contact-info p:nth-child(4) {
-  margin-bottom: 50px;
-}
+  .updates form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 
-.updates input {
-  width: 100%;
+  .contact-info p:nth-child(4) {
+    margin-bottom: 50px;
+  }
+
+  .updates input {
+    width: 100%;
+  }
 }
