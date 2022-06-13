@@ -13,6 +13,7 @@
     }
 
     .header-contain {
+
         align-items: flex-start;
     }
 
@@ -26,7 +27,9 @@
     }
 
     .hero-image {
-        background-position: left bottom;
+        background-position: bottom left;
+        background-position-x: 100%;
+        background-size: auto;
 
     }
 
